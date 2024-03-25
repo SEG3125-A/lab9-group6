@@ -1,0 +1,219 @@
+/* Appliquez une image de fond à toute la page ou à un conteneur spécifique */
+
+
+
+
+.container {
+  display: flex; /* Active Flexbox */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement si vous en avez besoin */
+  height: 100vh; /* Assurez-vous que le conteneur prend toute la hauteur de la fenêtre */
+}
+
+
+/* Style de la barre de recherche */
+.search-input {
+  padding: 10px;
+  margin: 20px 0;
+  width: 70%;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du bouton de recherche */
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Couleur du bouton */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Couleur du bouton au survol */
+}
+
+/* Style des boutons de filtre */
+.filter-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #17a2b8; /* Couleur de fond */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: #000000; /* Couleur de fond au survol */
+}
+
+/* Style pour espacer les boutons */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+
+
+.navbar {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content:end; /* Positionne le contenu à droite */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Style pour le sélecteur de langue */
+.language-select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* CommunicatingPage.css */
+.comm-page-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .comm-page-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .comm-page-button:hover {
+    background-color: #01090a;
+  }
+  
+
+
+
+.book-list-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-list-item:hover {
+    background-color: #f0f0f0; /* Changez la couleur de fond au survol */
+    color: #0366d6; /* Changez la couleur du texte au survol si vous le souhaitez */
+  }
+  
+.author-list-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .author-list-item:hover {
+    background-color: #f0f0f0;
+    color: #0366d6;
+  }
+  
+  .author-details {
+    margin-top: 20px;
+  }
+  
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .book-item {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+  
+  .book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .book-info h2, .book-info h3 {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .book-info p {
+    font-size: 0.9rem;
+  }
+  
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .book-item {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+  
+  .book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .book-info h2, .book-info h3, .book-info p {
+    margin: 5px 0;
+  }
+  
+.nav-link {
+    margin-right: 20px; /* Ajustez l'espace selon vos besoins */
+  }
+  
+
+
+.forum-container {
+    padding: 20px;
+  }
+  
+  .topics-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .topic-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .topic-item h2 {
+    margin-top: 0;
+  }
+  
+  .topic-item p {
+    color: #555;
+  }
+  
+
+/*# sourceMappingURL=/lab8.e31bb0bc.css.map */

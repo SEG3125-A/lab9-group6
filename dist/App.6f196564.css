@@ -1,0 +1,172 @@
+/* SearchPage.css */
+.search-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .search-button, .filter-button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .filter-buttons {
+    margin-top: 20px;
+  }
+  
+  .link-to-communicate {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+  }
+  .filter-buttons :hover {
+    background-color: #01090a;
+  }
+
+  .search-button :active {
+    background-color: #01090a;
+  }
+/* CommunicatingPage.css */
+.comm-page-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .comm-page-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .comm-page-button:hover {
+    background-color: #01090a;
+  }
+  
+
+
+
+.book-list-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-list-item:hover {
+    background-color: #f0f0f0; /* Changez la couleur de fond au survol */
+    color: #0366d6; /* Changez la couleur du texte au survol si vous le souhaitez */
+  }
+  
+.author-list-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .author-list-item:hover {
+    background-color: #f0f0f0;
+    color: #0366d6;
+  }
+  
+  .author-details {
+    margin-top: 20px;
+  }
+  
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .book-item {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+  
+  .book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .book-info h2, .book-info h3 {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .book-info p {
+    font-size: 0.9rem;
+  }
+  
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .book-item {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+  
+  .book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .book-info h2, .book-info h3, .book-info p {
+    margin: 5px 0;
+  }
+  
+.nav-link {
+    margin-right: 20px; /* Ajustez l'espace selon vos besoins */
+  }
+  
+
+
+.forum-container {
+    padding: 20px;
+  }
+  
+  .topics-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .topic-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+
+/*# sourceMappingURL=/App.6f196564.css.map */

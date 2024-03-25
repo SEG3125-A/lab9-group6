@@ -1,0 +1,25 @@
+.forum-container {
+    padding: 20px;
+  }
+  
+  .topics-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .topic-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .topic-item h2 {
+    margin-top: 0;
+  }
+  
+  .topic-item p {
+    color: #555;
+  }
+  

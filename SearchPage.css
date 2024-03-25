@@ -1,0 +1,78 @@
+/* Appliquez une image de fond à toute la page ou à un conteneur spécifique */
+
+
+
+
+.container {
+  display: flex; /* Active Flexbox */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement si vous en avez besoin */
+  height: 100vh; /* Assurez-vous que le conteneur prend toute la hauteur de la fenêtre */
+}
+
+
+/* Style de la barre de recherche */
+.search-input {
+  padding: 10px;
+  margin: 20px 0;
+  width: 70%;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du bouton de recherche */
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Couleur du bouton */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Couleur du bouton au survol */
+}
+
+/* Style des boutons de filtre */
+.filter-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #17a2b8; /* Couleur de fond */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: #000000; /* Couleur de fond au survol */
+}
+
+/* Style pour espacer les boutons */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+
+
+.navbar {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content:end; /* Positionne le contenu à droite */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Style pour le sélecteur de langue */
+.language-select {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

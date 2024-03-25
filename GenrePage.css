@@ -1,0 +1,13 @@
+
+
+
+.book-list-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-list-item:hover {
+    background-color: #f0f0f0; /* Changez la couleur de fond au survol */
+    color: #0366d6; /* Changez la couleur du texte au survol si vous le souhaitez */
+  }
+  

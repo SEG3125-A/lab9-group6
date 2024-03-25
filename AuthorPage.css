@@ -1,0 +1,14 @@
+.author-list-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .author-list-item:hover {
+    background-color: #f0f0f0;
+    color: #0366d6;
+  }
+  
+  .author-details {
+    margin-top: 20px;
+  }
+  

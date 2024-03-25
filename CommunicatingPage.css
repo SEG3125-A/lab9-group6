@@ -1,0 +1,21 @@
+/* CommunicatingPage.css */
+.comm-page-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .comm-page-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .comm-page-button:hover {
+    background-color: #01090a;
+  }
+  
